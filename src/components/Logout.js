@@ -1,16 +1,16 @@
 import React from 'react';
 import {handleLogout} from './LoginApp';
 
-const Hero  = ({handleLogout}) => {
+const Logout  = ({handleLogout}) => {
 
     return (
-        <section className="Hero">
+        <section className="Logout">
             <nav>
                 <h2>Welcome</h2>
-                <button onClick={handleLogout}>Logout</button>
+                <button className="buttonLogout" onClick={handleLogout}>Logout</button>
             </nav>
         </section>
     )
 }
 
-export default Hero;
+export default Logout;
