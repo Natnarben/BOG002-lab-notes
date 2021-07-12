@@ -89,9 +89,7 @@ button {
   .login .loginContainer .errorMsg {
     color: red;
     font-size: 16px;
-  }
-  
-  .Logout {
+  }HomeNav {
     width: 100%;
     min-height: 100vh;
     background: radial-gradient(
@@ -102,7 +100,7 @@ button {
     );
   }
   
-  .Logout nav {
+  .HomeNav nav {
     background: #603bbb;
     width: 100%;
     padding: 20px 40px;
@@ -111,11 +109,11 @@ button {
     justify-content: space-between;
   }
   
-  .Logout nav h2 {
+  .HomeNav nav h2 {
     color: #fff;
   }
   
-  .Logout nav button {
+  .HomeNav nav button {
     width: 86px;
     padding: 8px 0;
     background: #3a2b58;

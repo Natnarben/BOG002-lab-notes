@@ -1,7 +1,7 @@
 import React, { useState, useEffect }from "react";
 import fire from "./Firebase";
 import Login from "./Login";
-import Hero from "./Logout";
+import Logout from "./Logout";
 
 const LoginApp = () => {
     const [user, setUser] = useState('');
@@ -38,6 +38,7 @@ const LoginApp = () => {
                         break;
                 }
             });
+            console.log("USUARIO DENTRO")
     };
 
     const handleSignup  = () => {
@@ -61,6 +62,7 @@ const LoginApp = () => {
 
     const handleLogout  = () => {
         fire.auth().signOut()
+        console.log("USUARIO FUERA");
     };
 
     const authListener  = () => {
@@ -81,7 +83,7 @@ const LoginApp = () => {
     return (
         <div className="App">
             {user ? (
-                <Hero handleLogout={handleLogout} /> 
+                <Logout handleLogout={handleLogout} /> 
             ) : (
                 <Login 
                 email={email}

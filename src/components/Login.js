@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React  from 'react'
+import { useHistory } from 'react-router-dom';
+
 
 const Login = (props) => {
     const {
@@ -17,23 +19,23 @@ const Login = (props) => {
     return (
         <section className="login">
             <div className="loginContainer">
-            <label>Username</label>
-            <input 
-                type="text" 
-                autoFocus 
-                required
-                value={email}
-                onChange={(event) => setEmail(event.target.value)}
-                />
-                <p className="errorMsg">{emailError}</p>
+                <label>Username</label>
+                <input 
+                    type="text" 
+                    autoFocus 
+                    required
+                    value={email}
+                    onChange={(event) => setEmail(event.target.value)}
+                    />
+                    <p className="errorMsg">{emailError}</p>
                 <label>Password</label>
                 <input 
-                type="password" 
-                required
-                value={password}
-                onChange={(event) => setPassword(event.target.value)}
-                />
-                <p className="errorMsg">{passwordError}</p>
+                    type="password" 
+                    required
+                    value={password}
+                    onChange={(event) => setPassword(event.target.value)}
+                    />
+                    <p className="errorMsg">{passwordError}</p>
                 <div className="btnContainer">
                     {hasAccount ? (
                         <>
