@@ -10,9 +10,16 @@ const Logout  = ({handleLogout}) => {
     return (
             <section className="HomeNav">
                 <nav>
-                    <h2>NOTE ME</h2>
-                    <button className="buttonLogout" onClick={handleLogout}>Logout</button>
+                    <h2>ANOTALO</h2>
+                    <Link to="/Login">
+                        <button className="buttonLogout" onClick={handleLogout}>Salir</button>
+                    </Link>
                 </nav>
+                <section>
+                    <h2>NOTA 1</h2>
+                    <h2>NOTA 2</h2>
+                    <h2>NOTA 3</h2>
+                </section>
             </section>
     )
 }

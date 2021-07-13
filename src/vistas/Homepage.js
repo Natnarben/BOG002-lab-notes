@@ -1,9 +1,11 @@
 import React from 'react'
+import Logout from '../components/Logout'
 
-export default function Homepage() {
+
+export default function Homepage({handleLogout}) {
     return (
         <div>
-            <Logout/>
+            <Logout handleLogout={handleLogout}/>
         </div>
     )
 }

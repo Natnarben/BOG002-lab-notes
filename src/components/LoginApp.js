@@ -61,7 +61,7 @@ const LoginApp = () => {
     };
 
     const handleLogout  = () => {
-        fire.auth().signOut()
+        fire.auth().signOut();
         console.log("USUARIO FUERA");
     };
 

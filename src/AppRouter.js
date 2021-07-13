@@ -16,7 +16,7 @@ export default function AppRouter() {
         <Router>
             <Switch>
                 <Route exact path="/" component={LandingPage}/>
-                <Route path="/homepage" component={Homepage}/>
+                <Route path="/homepage" component={Logout}/>
                 <Route path="/login" component={LoginApp}/> 
             </Switch>
         </Router>

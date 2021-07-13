@@ -18,8 +18,10 @@ const Login = (props) => {
 
     return (
         <section className="login">
+        
             <div className="loginContainer">
-                <label>Username</label>
+                <h1 className="tittleForm">ANOTALO</h1>
+                <label>Email</label>
                 <input 
                     type="text" 
                     autoFocus 
@@ -28,7 +30,7 @@ const Login = (props) => {
                     onChange={(event) => setEmail(event.target.value)}
                     />
                     <p className="errorMsg">{emailError}</p>
-                <label>Password</label>
+                <label>Contraseña</label>
                 <input 
                     type="password" 
                     required
@@ -39,13 +41,13 @@ const Login = (props) => {
                 <div className="btnContainer">
                     {hasAccount ? (
                         <>
-                        <button onClick={handleLogin}>Sign in</button>
-                        <p>Dont have an account?<span onClick={() => setHasAccount(!hasAccount)}>sign up</span></p>
+                        <button onClick={handleLogin}>Ingresar</button>
+                        <p>Aun no tienes una cuenta?<span onClick={() => setHasAccount(!hasAccount)}>Crear</span></p>
                         </>
                     ) : (
                         <>
-                        <button onClick={handleSignup}>Sign UP</button>
-                        <p>Have an account?<span onClick={() => setHasAccount(!hasAccount)}>sign in</span></p>
+                        <button onClick={handleSignup}>Crear</button>
+                        <p>Ya eres usuario?<span onClick={() => setHasAccount(!hasAccount)}>Ingresar</span></p>
                         </>    
                     )}
                 </div>
