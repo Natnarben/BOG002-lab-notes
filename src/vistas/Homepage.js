@@ -1,11 +1,16 @@
 import React from 'react'
-import Logout from '../components/Logout'
+import { Notes } from '../components/Notes'
 
 
-export default function Homepage({handleLogout}) {
+
+export default function Homepage() {
     return (
         <div>
-            <Logout handleLogout={handleLogout}/>
+            <section className="HomeNav">
+                
+                <Notes />
+                
+            </section>   
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import React, { useState, useEffect }from "react";
+import Homepage from "../vistas/Homepage";
 import fire from "./Firebase";
 import Login from "./Login";
 import Logout from "./Logout";
@@ -83,7 +84,7 @@ const LoginApp = () => {
     return (
         <div className="App">
             {user ? (
-                <Logout handleLogout={handleLogout} /> 
+                <Logout handleLogout={handleLogout}/> 
             ) : (
                 <Login 
                 email={email}
