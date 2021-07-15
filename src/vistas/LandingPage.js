@@ -1,7 +1,6 @@
 import React from 'react'
-import LoginApp from '../components/LoginApp'
-import Logout from '../components/Logout'
 import landingBackground from "../images/landingBackground.png";
+import  { Link } from 'react-router-dom'
 
 export default function LandingPage() {
     return (
@@ -9,7 +8,9 @@ export default function LandingPage() {
             <section className="HomeNav">
                 <nav>
                     <h2>ANOTALO</h2>
-                    <button className="buttonLogout" onClick={LoginApp}>Signin Login</button>  
+                    <Link to="/login">
+                    <button className="buttonLogout">Signin Login</button> 
+                    </Link> 
                 </nav>
                 <section style={{ backgroundImage: `url(${landingBackground})` }} className="landingBackground">
                     

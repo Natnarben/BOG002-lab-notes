@@ -1,8 +1,8 @@
 import React, { useState, useEffect }from "react";
-import Homepage from "../vistas/Homepage";
 import fire from "./Firebase";
 import Login from "./Login";
 import Logout from "./Logout";
+import  { Link } from 'react-router-dom'
 
 const LoginApp = () => {
     const [user, setUser] = useState('');

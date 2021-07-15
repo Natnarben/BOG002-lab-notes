@@ -1,10 +1,7 @@
 import React from 'react';
-import  { 
-    Link
-
-} from 'react-router-dom'
+import  { Link } from 'react-router-dom'
 import Homepage from '../vistas/Homepage';
-// import {handleLogout} from './LoginApp';
+
 
 const Logout  = ({handleLogout}) => {
     
