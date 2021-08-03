@@ -4,7 +4,6 @@ import  { Link } from 'react-router-dom'
 
 export default function LandingPage() {
     return (
-        <section>
             <section className="HomeNav">
                 <nav>
                     <h2>ANOTALO</h2>
@@ -12,10 +11,8 @@ export default function LandingPage() {
                     <button className="buttonLogout">Signin Login</button> 
                     </Link> 
                 </nav>
-                <section style={{ backgroundImage: `url(${landingBackground})` }} className="landingBackground">
-                    
-                </section>
+                <div style={{ backgroundImage: `url(${landingBackground})` }} className="landingBackground">  
+                </div>
             </section> 
-        </section>
     )
 }

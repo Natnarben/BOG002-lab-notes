@@ -3,13 +3,10 @@ import  {
     BrowserRouter as Router, 
     Route, 
     Switch,
-    Link,
-    NavLink 
 } from 'react-router-dom'
 import Logout from './components/Logout'
 import LoginApp from './components/LoginApp'
 import LandingPage from './vistas/LandingPage'
-import Homepage from './vistas/Homepage'
 
 export default function AppRouter() {
     return (
