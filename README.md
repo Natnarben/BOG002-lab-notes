@@ -105,43 +105,34 @@ de notas).
 
 ### HTML y CSS
 
-* [ ] HTML semántico
-* [ ] CSS flexbox
-* [ ] Maquetación
+* [x] HTML semántico
+* [x] CSS flexbox
+* [x] Maquetación
 
 ### Frontend Development
 
-* [ ] Componentes
-* [ ] Manejo de estado
+* [x] Componentes
+* [x] Manejo de estado
 
 ### React
 
-* [ ] [`JSX`](https://es.reactjs.org/docs/introducing-jsx.html)
+* [x] [`JSX`](https://es.reactjs.org/docs/introducing-jsx.html)
 * [ ] [Componentes `class` y componentes `function`](https://es.reactjs.org/docs/components-and-props.html#function-and-class-components)
-* [ ] `props`
-* [ ] [Eventos en React.](https://es.reactjs.org/docs/handling-events.html)
-* [ ] [Listas y keys.](https://es.reactjs.org/docs/lists-and-keys.html)
-* [ ] [Renderizado condicional.](https://es.reactjs.org/docs/conditional-rendering.html)
+* [x] `props`
+* [x] [Eventos en React.](https://es.reactjs.org/docs/handling-events.html)
+* [x] [Listas y keys.](https://es.reactjs.org/docs/lists-and-keys.html)
+* [x] [Renderizado condicional.](https://es.reactjs.org/docs/conditional-rendering.html)
 * [ ] [Elevación de estados.](https://es.reactjs.org/docs/lifting-state-up.html)
-* [ ] [`hooks`](https://es.reactjs.org/docs/hooks-intro.html)
+* [x] [`hooks`](https://es.reactjs.org/docs/hooks-intro.html)
 * [ ] [`CSS` modules.](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet)
-* [ ] [React Router.](https://reacttraining.com/react-router/web)
+* [x] [React Router.](https://reacttraining.com/react-router/web)
 
-### Angular
 
-* [ ] [`Uso de Components | Templates`](https://angular.io/guide/architecture-components#introduction-to-components)
-* [ ] [`Directivas estructurales (ngIf / ngFor)`](https://angular.io/guide/template-syntax#built-in-structural-directives)
-* [ ] [`@Input | @Ouput`](https://angular.io/guide/component-interaction#component-interaction)
-* [ ] [`Creación y uso de servicios`](https://angular.io/guide/architecture-services#providing-services)
-* [ ] [`Manejos de rutas`](https://angular.io/guide/router)
-* [ ] [`Uso de Observables`](https://angular.io/guide/observables-in-angular)
-* [ ] [`Uso de HttpClient`](https://angular.io/guide/http)
-* [ ] [`Estilos de componentes (ngStyle / ngClass)`](https://angular.io/guide/template-syntax#built-in-directives)
 
 ### Firebase
 
-* [ ] [`Firestore`](https://firebase.google.com/docs/firestore?hl=es)
-* [ ] [`Firebase Auth`](https://firebase.google.com/docs/auth?hl=es)
+* [x] [`Firestore`](https://firebase.google.com/docs/firestore?hl=es)
+* [x] [`Firebase Auth`](https://firebase.google.com/docs/auth?hl=es)
 * [ ] [`Firebase security rules`](https://firebase.google.com/docs/firestore/security/get-started)
 * [ ] [`onSnapshot`](https://firebase.google.com/docs/firestore/query-data/listen)
 * [ ] [`onAuthStateChanged`](https://firebase.google.com/docs/auth/web/manage-users?hl=es)
@@ -155,9 +146,9 @@ de notas).
 
 ### Buenas prácticas de desarrollo
 
-* [ ] Modularización
-* [ ] Nomenclatura / Semántica
-* [ ] Linting
+* [x] Modularización
+* [x] Nomenclatura / Semántica
+* [x] Linting
 
 ## 4. Consideraciones generales
 
